@@ -1,1 +1,1 @@
-pip install scikit-image xlsxwriter opencv-python pandas numpy scikit-learn
+pip install scikit-image xlsxwriter opencv-python pandas numpy scikit-learn opencv-python
