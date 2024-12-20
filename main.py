@@ -3,8 +3,8 @@ import cv2
 import numpy as np
 import pandas as pd
 from skimage.feature import graycomatrix, graycoprops
-from scipy.stats import skew, kurtosis
-from sklearn.model_selection import train_test_split
+from scipy.stats import skew, kurtosis # Statistik deskriptif
+from sklearn.model_selection import train_test_split # Pembagian data
 from sklearn.neighbors import KNeighborsClassifier # Klasifikasi dengan KNN
 from sklearn.metrics import classification_report # Laporan hasil klasifikasi
 from sklearn.preprocessing import StandardScaler # Normalisasi data
