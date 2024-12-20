@@ -5,9 +5,9 @@ import pandas as pd
 from skimage.feature import graycomatrix, graycoprops
 from scipy.stats import skew, kurtosis
 from sklearn.model_selection import train_test_split
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import classification_report
-from sklearn.preprocessing import StandardScaler
+from sklearn.neighbors import KNeighborsClassifier 
+from sklearn.metrics import classification_report # Laporan hasil klasifikasi
+from sklearn.preprocessing import StandardScaler # Normalisasi data
 
 # Fungsi untuk preprocessing gambar
 def preprocess_image(img_path):
