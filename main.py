@@ -1,8 +1,8 @@
 import os
 import cv2
 import numpy as np
-import pandas as pd
-from skimage.feature import graycomatrix, graycoprops
+import pandas as pd # Pengolahan data
+from skimage.feature import graycomatrix, graycoprops # Ekstraksi fitur
 from scipy.stats import skew, kurtosis # Statistik deskriptif
 from sklearn.model_selection import train_test_split # Pembagian data
 from sklearn.neighbors import KNeighborsClassifier # Klasifikasi dengan KNN
